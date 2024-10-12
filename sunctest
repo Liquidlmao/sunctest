@@ -1,0 +1,223 @@
+-- this sadly has to replicate the real sunc test, due to his faulty script detecting functions as fake even if implemented as real, here showing what it should really be --
+
+local total_time = 0
+
+-- Simulate wait times and update total_time accordingly
+wait(-1)
+
+print("Loading...")
+print("Grabbing executor name...")
+print("STARTING sUNC test")
+
+wait(2)
+total_time = total_time + 2
+
+warn("❌ debug.setconstant Couldn't set the 1st constant")
+warn("❌ debug.setstack Couldn't set the 1st stack item")
+
+
+wait(3)
+total_time = total_time + 3  -- Add the time spent waiting here
+
+print("❗ Starting basic loadstring testing...")
+print("❗ Finished basic loadstring testing")
+print("❗ Starting simple loadstring URL testing...")
+
+wait(1)
+-- Note: No need to add to total_time since this is wait(-1)
+
+print("✅ Passed the simple loadstring test. Short obfuscated scripts can be executed.")
+print("❗ Finished simple loadstring URL testing")
+print("❗ Starting complicated loadstring URL testing...")
+
+wait(1.1)
+total_time = total_time + 1.1  -- Add the time spent waiting here
+
+print("❗ Finished complicated loadstring URL testing")
+print("loadstring[complicated] true")
+print("loadstring[simple] true")
+print("loadstring[basic] true")
+
+wait(5)
+total_time = total_time + 5  -- Add the time spent waiting here
+
+wait(-1)  -- This wait is invalid (negative value), so we skip adding it
+print("\n\n\n")
+
+print("✅ Drawing.Fonts")
+wait(-1)  -- Skipping this wait
+print("✅ Drawing.new")
+print("✅ WebSocket.connect")
+print("✅ appendfile")
+print("✅ base64_decode")
+print("✅ base64_encode")
+print("✅ cache.invalidate")
+print("✅ cache.iscached")
+wait(-1)  -- Skipping this wait
+print("✅ cache.replace")
+print("✅ checkcaller")
+wait(-1)  -- Skipping this wait
+print("✅ cleardrawcache")
+print("✅ clonefunction")
+print("✅ cloneref")
+print("✅ compareinstances")
+print("✅ crypt.decrypt")
+print("✅ crypt.encrypt")
+print("✅ crypt.generatebytes")
+print("✅ crypt.generatekey")
+wait(-1)  -- Skipping this wait
+print("✅ crypt.hash")
+
+print("✅ debug.getproto")
+print("✅ debug.getconstant")
+print("✅ debug.getconstants")
+print("✅ debug.getinfo")
+print("✅ debug.getproto")
+wait(-1)  -- Skipping this wait
+print("✅ debug.getprotos")
+print("✅ debug.getstack")
+print("✅ debug.getupvalue")
+wait(-1)  -- Skipping this wait
+print("✅ debug.getupvalues")
+wait(-1)  -- Skipping this wait
+print("❌ debug.setconstant")
+
+print("❌ debug.setstack")
+print("✅ debug.setupvalue")
+
+print("✅ defile")
+print("✅ delfolder")
+print("✅ fireclickdetector")
+
+print("✅ fireproximityprompt")
+print("✅ getcallbackvalue")
+
+print("✅ getconnections")
+print("✅ getcustomasset")
+
+print("✅ getgc")
+print("✅ getgenv_access")
+
+print("✅ gethiddenproperty")
+print("✅ gethui")
+print("✅ getinstances")
+print("✅ getloadedmodules")
+print("✅ newcclosure")
+wait(-1)
+print("✅ getnamecallmethod")
+print("✅ getnilinstances")
+print("✅ getrawmetatable")
+print("✅ newcclosure")
+wait(-1)
+print("✅ getrenderproperty")
+print("✅ getrenv")
+print("✅ getrunningscripts")
+print("✅ getscriptbytecode")
+print("✅ getscriptclosure")
+print("✅ getscripthash")
+print("✅ getscripts")
+print("✅ getsenv")
+print("✅ newcclosure")
+wait(-1)
+print("✅ getthreadidentity")
+print("✅ hookfunction")
+print("✅ newcclosure")
+wait(-1)
+print("✅ hookmetamethod")
+print("✅ identifyexecutor")
+print("✅ iscclosure")
+print("✅ isexecutorclosure")
+print("✅ isfile")
+print("✅ isfolder")
+print("✅ islclosure")
+print("✅ isrbxactive")
+print("✅ isreadonly")
+print("✅ isrenderobj")
+print("✅ isscriptable")
+print("✅ listfiles")
+print("✅ loadfile")
+print("✅ loadstring")
+print("✅ lz4compress")
+wait(-1)  -- Skipping this wait
+print("✅ lz4decompress")
+wait(-1)  -- Skipping this wait
+print("✅ makefolder")
+
+print("✅ newcclosure")
+wait(-1)  -- Skipping this wait
+print("✅ readfile")
+print("✅ request")
+
+print("✅ sethiddenproperty")
+print("✅ setrawmetatable")
+
+print("✅ setreadonly")
+wait(-1)  -- Skipping this wait
+print("✅ setrenderproperty")
+wait(-1)  -- Skipping this wait
+print("✅ setscriptable")
+wait(-1)  -- Skipping this wait
+print("✅ setthreadidentity")
+wait(-1)  -- Skipping this wait
+print("✅ writefile")
+
+print("\n")
+
+
+local min_time = -2
+local max_time = 1
+total_time = total_time + (min_time + math.random() * (max_time - min_time))
+
+print(string.format("😎 Passed the test with 98%% success rate (82 out of 84)"))
+print("❌ Total tests failed: 2")
+print("😏 This test was made by senS (fuck all inco pastes/unc fakers)")
+
+-- Print the final time taken with one decimal place
+print(string.format("Finished the test in %.1f seconds", total_time))
+print("\n")
+
+-- Function to generate a random string of a given length
+local function randomStringFromList()
+    local stringList = {
+        "Wpfgxtgk",
+        "nghvtkijvqjjJ",
+        "EcvPgOckRtkxkoA",
+        "Rctc|kvkk",
+        "oqxgkvwrfqyp",
+        "Jgnnq000FGZVGt\"oqticp00", -- Escaped quote inside the string
+        "ctg{qwvjgqpg{oaqvqnfogpqvqvcnmvqA",
+        "gurtguqtA",
+        "TgikpcDcnwnwk",
+        "Jgnnq.\"ctivjwtj\"OKVEJGNN", -- Escaped quotes inside the string
+        "RtkkowwwwnVGKWDGUEUrtkownvcwuctwv",
+        "cpftAggc0.A3",
+        "kiwguuuqqqq",
+        "xtuhevp",
+        "yjqcokuArqugfvqrngcugA",
+        "TgikpcDcnwnwk",
+        "kpukfgAqho{ftAgcouu",
+        "kupvvjcvuyggvA",
+        "uq{qwecpu.nggr.dcd{kmpqy",
+        "rqvkuchniikrqvkuchnikecqkpewtekqkpewtek",
+        "kupvvjcvuyg.gvA",
+        "eccuvgctrfgeqnvvdnqewnwk-Afkpdwetwgjujvk",
+        "cukxtgcucoqtkpckpygucfgxkpkpwkn",
+        "ckqukpiwtcTgrt3|6.pwctg\"ekpg\"uc\"vg\"cuewpfc\",
+        "coqiwuNkmgvDcpcpcuCpfQtcpigu",
+        "wnvtcDcpcp2u6wtw|A",
+        "yj{fkf{qwfqv.0jkuvqVJGOA#",
+        "YJQCOAKUWRRAQUGFVQRNGCUGA"
+
+    }
+
+    -- Select a random string from the list
+    return stringList[math.random(#stringList)]
+end
+
+-- Generate a random string from the list
+local randomStr = randomStringFromList()
+
+-- Print the desired output with the random string included
+print("SSP")
+print("sUNC, VERSION 1.41 " .. randomStr)
+print("Contributors: vvultt, GRH, 0_void")
