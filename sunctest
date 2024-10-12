@@ -202,12 +202,11 @@ local function randomStringFromList()
         "kupvvjcvuyg.gvA",
         "eccuvgctrfgeqnvvdnqewnwk-Afkpdwetwgjujvk",
         "cukxtgcucoqtkpckpygucfgxkpkpwkn",
-        "ckqukpiwtcTgrt3|6.pwctg\"ekpg\"uc\"vg\"cuewpfc\",
+        "ckqukpiwtcTgrt3|6.pwctg\"ekpg\"uc\"vg\"cuewpfc", -- Escaped quotes inside the string
         "coqiwuNkmgvDcpcpcuCpfQtcpigu",
         "wnvtcDcpcp2u6wtw|A",
         "yj{fkf{qwfqv.0jkuvqVJGOA#",
         "YJQCOAKUWRRAQUGFVQRNGCUGA"
-
     }
 
     -- Select a random string from the list
