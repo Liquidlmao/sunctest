@@ -23,7 +23,10 @@ print("❗ Starting basic loadstring testing...")
 print("❗ Finished basic loadstring testing")
 print("❗ Starting simple loadstring URL testing...")
 
-wait(1)
+wait(-1)
+wait(-1)
+wait(-1)
+wait(-1)
 -- Note: No need to add to total_time since this is wait(-1)
 
 print("✅ Passed the simple loadstring test. Short obfuscated scripts can be executed.")
