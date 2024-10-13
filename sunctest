@@ -16,8 +16,8 @@ warn("❌ debug.setconstant Couldn't set the 1st constant")
 warn("❌ debug.setstack Couldn't set the 1st stack item")
 
 
-wait(3)
-total_time = total_time + 3  -- Add the time spent waiting here
+wait(1)
+total_time = total_time + 1  -- Add the time spent waiting here
 
 print("❗ Starting basic loadstring testing...")
 print("❗ Finished basic loadstring testing")
