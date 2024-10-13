@@ -40,8 +40,8 @@ print("✅ Passed the simple loadstring test. Short obfuscated scripts can be ex
 print("❗ Finished simple loadstring URL testing")
 print("❗ Starting complicated loadstring URL testing...")
 
-wait(1.1)
-total_time = total_time + 1.1  -- Add the time spent waiting here
+wait(1.5)
+total_time = total_time + 1.5  -- Add the time spent waiting here
 
 print("❗ Finished complicated loadstring URL testing")
 print("loadstring[complicated] true")
