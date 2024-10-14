@@ -227,5 +227,5 @@ local randomStr = randomStringFromList()
 
 -- Print the desired output with the random string included
 print("Synapse")
-print("sUNC, VERSION 1.41 " .. randomStr)
+print("sUNC, VERSION 1.42 " .. randomStr)
 print("Contributors: vvultt, GRH, 0_void")
