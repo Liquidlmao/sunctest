@@ -226,6 +226,6 @@ end
 local randomStr = randomStringFromList()
 
 -- Print the desired output with the random string included
-print("SSP")
+print("Synapse")
 print("sUNC, VERSION 1.41 " .. randomStr)
 print("Contributors: vvultt, GRH, 0_void")
