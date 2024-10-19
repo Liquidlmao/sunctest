@@ -12,11 +12,13 @@ print("STARTING sUNC test")
 wait(3)
 total_time = total_time + 3
 
-print("❌ debug.getupvalues function is nil")
-print("❌ debug.getstack function is nil")
-print("❌ getscriptclosure Failed to retrieve the closure from a LocalScript")
-print("❌ WebSocket.connect CoreGui.Synapse.Scripts.7CFD2DC8-0DA4-4C6C-95A1-36ED76519E6D:1: invalid argument #1 to 'next' (table expected, got nil)")
+warn("❌ debug.getupvalues function is nil")
+warn("❌ debug.getstack function is nil")
+warn("❌ getscriptclosure Failed to retrieve the closure from a LocalScript")
+warn("❌ WebSocket.connect CoreGui.Synapse.Scripts.7CFD2DC8-0DA4-4C6C-95A1-36ED76519E6D:1: invalid argument #1 to 'next' (table expected, got nil)")
 
+wait(2)
+total_time = total_time + 2
 
 
 print("❗ Starting basic loadstring testing...")
