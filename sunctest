@@ -12,12 +12,7 @@ print("STARTING sUNC test")
 wait(2)
 total_time = total_time + 2
 
-warn("❌ debug.setconstant Couldn't set the 1st constant")
-warn("❌ debug.setstack Couldn't set the 1st stack item")
 
-
-wait(1)
-total_time = total_time + 1  -- Add the time spent waiting here
 
 print("❗ Starting basic loadstring testing...")
 print("❗ Finished basic loadstring testing")
@@ -211,5 +206,5 @@ local randomStr = randomStringFromList()
 
 -- Print the desired output with the random string included
 print("‌Synapse")
-print("‌sUNC, VERSION 1.43" .. randomStr)
+print("‌sUNC, VERSION 1.43 " .. randomStr)
 print("‌Contributors: ‌‌vvultt, GRH,‌ 0_void")
