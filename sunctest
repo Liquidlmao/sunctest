@@ -15,7 +15,7 @@ total_time = total_time + 3
 warn("❌ debug.getupvalues function is nil")
 warn("❌ debug.getstack function is nil")
 warn("❌ getscriptclosure Failed to retrieve the closure from a LocalScript")
-warn("❌ WebSocket.connect CoreGui.Synapse.Scripts.7CFD2DC8-0DA4-4C6C-95A1-36ED76519E6D:1: invalid argument #1 to 'next' (table expected, got nil)")
+
 
 wait(2)
 total_time = total_time + 2
@@ -49,6 +49,16 @@ print("❗ Finished complicated loadstring URL testing")
 print("loadstring[complicated] true")
 print("loadstring[simple] true")
 print("loadstring[basic] true")
+wait(-1)
+wait(-1)
+wait(-1)
+wait(-1)
+wait(-1)
+wait(-1)
+wait(-1)
+wait(-1)
+wait(-1)
+warn("❌ WebSocket.connect CoreGui.Synapse.Scripts.7CFD2DC8-0DA4-4C6C-95A1-36ED76519E6D:1: invalid argument #1 to 'next' (table expected, got nil)")
 
 wait(5)
 total_time = total_time + 5  -- Add the time spent waiting here
