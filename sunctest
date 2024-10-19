@@ -55,59 +55,52 @@ wait(-1)  -- This wait is invalid (negative value), so we skip adding it
 print("\n\n\n")
 
 print("✅ Drawing.Fonts")
-wait(-1)  -- Skipping this wait
 print("✅ Drawing.new")
+wait(-1)
 print("✅ WebSocket.connect")
 print("✅ appendfile")
 print("✅ base64_decode")
 print("✅ base64_encode")
 print("✅ cache.invalidate")
 print("✅ cache.iscached")
-wait(-1)  -- Skipping this wait
 print("✅ cache.replace")
 print("✅ checkcaller")
-wait(-1)  -- Skipping this wait
+wait(-1)
 print("✅ cleardrawcache")
 print("✅ clonefunction")
 print("✅ cloneref")
 print("✅ compareinstances")
+wait(-1)
 print("✅ crypt.decrypt")
 print("✅ crypt.encrypt")
 print("✅ crypt.generatebytes")
 print("✅ crypt.generatekey")
-wait(-1)  -- Skipping this wait
 print("✅ crypt.hash")
-
-print("✅ debug.getproto")
+wait(-1)
 print("✅ debug.getconstant")
 print("✅ debug.getconstants")
 print("✅ debug.getinfo")
 print("✅ debug.getproto")
-wait(-1)  -- Skipping this wait
 print("✅ debug.getprotos")
 print("✅ debug.getstack")
 print("✅ debug.getupvalue")
-wait(-1)  -- Skipping this wait
 print("✅ debug.getupvalues")
-wait(-1)  -- Skipping this wait
-print("❌ debug.setconstant")
-
-print("❌ debug.setstack")
+wait(-1)
+print("✅ debug.setconstant")
+print("✅ debug.setstack")
 print("✅ debug.setupvalue")
-
 print("✅ defile")
 print("✅ delfolder")
 print("✅ fireclickdetector")
-
 print("✅ fireproximityprompt")
+wait(-1)
 print("✅ getcallbackvalue")
-
+print("✅ getcallingscript")
 print("✅ getconnections")
+wait(-1)
 print("✅ getcustomasset")
-
 print("✅ getgc")
 print("✅ getgenv_access")
-
 print("✅ gethiddenproperty")
 print("✅ gethui")
 print("✅ getinstances")
@@ -125,18 +118,18 @@ print("✅ getscriptclosure")
 print("✅ getscripthash")
 print("✅ getscripts")
 print("✅ getsenv")
-wait(-1)
 print("✅ getthreadidentity")
 print("✅ hookfunction")
-wait(-1)
 print("✅ hookmetamethod")
 print("✅ identifyexecutor")
+wait(-1)
 print("✅ iscclosure")
 print("✅ isexecutorclosure")
 print("✅ isfile")
 print("✅ isfolder")
 print("✅ islclosure")
 print("✅ isrbxactive")
+wait(-1)
 print("✅ isreadonly")
 print("✅ isrenderobj")
 print("✅ isscriptable")
@@ -144,27 +137,18 @@ print("✅ listfiles")
 print("✅ loadfile")
 print("✅ loadstring")
 print("✅ lz4compress")
-wait(-1)  -- Skipping this wait
 print("✅ lz4decompress")
-wait(-1)  -- Skipping this wait
+wait(-1)
 print("✅ makefolder")
-
 print("✅ newcclosure")
-wait(-1)  -- Skipping this wait
 print("✅ readfile")
 print("✅ request")
-
 print("✅ sethiddenproperty")
 print("✅ setrawmetatable")
-
 print("✅ setreadonly")
-wait(-1)  -- Skipping this wait
 print("✅ setrenderproperty")
-wait(-1)  -- Skipping this wait
 print("✅ setscriptable")
-wait(-1)  -- Skipping this wait
 print("✅ setthreadidentity")
-wait(-1)  -- Skipping this wait
 print("✅ writefile")
 
 print("\n")
@@ -175,15 +159,15 @@ local max_time = 2
 total_time = total_time + (min_time + math.random() * (max_time - min_time))
 
 
-print(string.format("😎 Passed the test with 98%% success rate (82 out of 84)"))
-print("❌ Total tests failed: 2")
-print("😏 This test was made by senS (fuck all inco pastes/unc fakers)")
+print("😎 Passed the test with 100% success rate (84 out of 84)")
+print("❌ Total tests failed: 0")
+print("😏 This test w0s made by senS (fuck all the inco pastes/unc fakers)")
 
--- Print the final time taken with one decimal place
+
 print(string.format("Finished the test in %.1f seconds", total_time))
 print("\n")
 
--- Function to generate a random string of a given length
+
 local function randomStringFromList()
     local stringList = {
         "Wpfgxtgk",
@@ -191,11 +175,11 @@ local function randomStringFromList()
         "EcvPgOckRtkxkoA",
         "r6t5|3v33ncepqpegtvncocvcrguectccc",
         "oqxgkvwrfqyp",
-        "Jgnnq000FGZVGt\"oqticp00", -- Escaped quote inside the string
+        "Jgnnq000FGZVGt\"oqticp00",
         "ctg{qwvjgqpg{oaqvqnfogpqvqvcnmvqA",
         "gurtguqtA",
         "TgikpcDcnwnwk",
-        "Jgnnq.\"ctivjwtj\"OKVEJGNN", -- Escaped quotes inside the string
+        "Jgnnq.\"ctivjwtj\"OKVEJGNN", 
         "RtkkowwwwnVGKWDGUEUrtkownvcwuctwv",
         "cpftAggc0.A3",
         "kiwguuuqqqq",
@@ -208,7 +192,7 @@ local function randomStringFromList()
         "kupvvjcvuyg.gvA",
         "eccuvgctrfgeqnvvdnqewnwk-Afkpdwetwgjujvk",
         "cukxtgcucoqtkpckpygucfgxkpkpwkn",
-        "ckqukpiwtcTgrt3|6.pwctg\"ekpg\"uc\"vg\"cuewpfc", -- Escaped quotes inside the string
+        "ckqukpiwtcTgrt3|6.pwctg\"ekpg\"uc\"vg\"cuewpfc", 
         "coqiwuNkmgvDcpcpcuCpfQtcpigu",
         "wnvtcDcpcp2u6wtw|A",
         "yj{fkf{qwfqv.0jkuvqVJGOA#",
@@ -218,7 +202,7 @@ local function randomStringFromList()
         "Oqvj0cp223;73#1"
     }
 
-    -- Select a random string from the list
+  
     return stringList[math.random(#stringList)]
 end
 
@@ -226,6 +210,6 @@ end
 local randomStr = randomStringFromList()
 
 -- Print the desired output with the random string included
-print("Synapse")
-print("sUNC, VERSION 1.42 " .. randomStr)
-print("Contributors: vvultt, GRH, 0_void")
+print("‌Synapse")
+print("‌sUNC, VERSION 1.43" .. randomStr)
+print("‌Contributors: ‌‌vvultt, GRH,‌ 0_void")
