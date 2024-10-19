@@ -177,7 +177,7 @@ local max_time = 2
 total_time = total_time + (min_time + math.random() * (max_time - min_time))
 
 
-print("😎 Passed the test with 95% success rate (80 out of 84)")
+print("😎 Passed the test with 95% success rate (82 out of 86)")
 print("❌ Total tests failed: 4")
 print("😏 This test w0s made by senS (fuck all the inco pastes/unc fakers)")
 
@@ -228,6 +228,6 @@ end
 local randomStr = randomStringFromList()
 
 -- Print the desired output with the random string included
-print("‌Synapse")
-print("‌sUNC, VERSION 1.43 " .. randomStr)
-print("‌Contributors: ‌‌vvultt, GRH,‌ 0_void")
+print("XHook")
+print("sUNC VERSION 1.45 "  .. randomStr)
+print("Contributors: vvultt, GRH, 0_void")
