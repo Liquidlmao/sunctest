@@ -229,5 +229,5 @@ local randomStr = randomStringFromList()
 
 -- Print the desired output with the random string included
 print("XHook")
-print("sUNC VERSION 1.45 "  .. randomStr)
+print("sUNC, VERSION 1.45 "  .. randomStr)
 print("Contributors: vvultt, GRH, 0_void")
