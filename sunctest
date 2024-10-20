@@ -189,38 +189,32 @@ print("\n")
 
 
 local function randomStringFromList()
-    local stringList = {
-        "Wpfgxtgk",
-        "nghvtkijvqjjJ",
-        "EcvPgOckRtkxkoA",
-        "r6t5|3v33ncepqpegtvncocvcrguectccc",
-        "oqxgkvwrfqyp",
-        "Jgnnq000FGZVGt\"oqticp00",
-        "ctg{qwvjgqpg{oaqvqnfogpqvqvcnmvqA",
-        "gurtguqtA",
-        "TgikpcDcnwnwk",
-        "Jgnnq.\"ctivjwtj\"OKVEJGNN", 
-        "RtkkowwwwnVGKWDGUEUrtkownvcwuctwv",
-        "cpftAggc0.A3",
-        "kiwguuuqqqq",
-        "xtuhevp",
-        "yjqcokuArqugfvqrngcugA",
-        "kpukfgAqho{ftAgcouu",
-        "kupvvjcvuyggvA",
-        "uq{qwecpu.nggr.dcd{kmpqy",
-        "rqvkuchniikrqvkuchnikecqkpewtekqkpewtek",
-        "kupvvjcvuyg.gvA",
-        "eccuvgctrfgeqnvvdnqewnwk-Afkpdwetwgjujvk",
-        "cukxtgcucoqtkpckpygucfgxkpkpwkn",
-        "ckqukpiwtcTgrt3|6.pwctg\"ekpg\"uc\"vg\"cuewpfc", 
-        "coqiwuNkmgvDcpcpcuCpfQtcpigu",
-        "wnvtcDcpcp2u6wtw|A",
-        "yj{fkf{qwfqv.0jkuvqVJGOA#",
-        "YJQCOAKUWRRAQUGFVQRNGCUGA",
-        "owjg4jgj100AA;jg473jgj",
-        "eqpurktce{vjgqt{??dcppecpc??F{p??qtcpiga",
-        "Oqvj0cp223;73#1"
-    }
+   local stringList = {
+    "yjqcokuArqugfvqrngcugA",
+    "kupvvjcvuyg.gvA",
+    "nghvtkijvqjjJ",
+    "coqiwuNkmguDcpcpcuCpfQtcpigu",
+    "RtkkowwwwnVGKWDGUEUrtkownvcwuctwv",
+    "Wpfgxtgk",
+    "gurtAguqtA",
+    "wnvtcDcpcp2u6wtw|A",
+    "Jgnnq000FGZVGt0\"oqticp00",
+    "ctg{qwvjgqpgo{oqovqnfogpqvvqvcnmvqA",
+    "uq{qwecpu.nggr.dcd{kmpqy",
+    "EcvPgOckRtkxkoA",
+    "YJQCOAKUWRRAQUGFVQRNGCUGA",
+    "TgikpcDcnwnwk",
+    "eqpurktce{vjgqt{eedcppccpceef{peeqtcpigA",
+    "Rctc|kvkk",
+    "OqvjOcp223;73#1",
+    "cukxtgcucoqtkpckpvgucfgxkpkpwvkn",
+    "ixoywAvkycpvyjqcokA",
+    "kiwguuuqqqq",
+    "owjg4jgj100AA;jg473jgj",
+    "eccuvcgtcrfgeqnvwdnqewnwk-Afkpdwewtgujvk",
+    "oqxgkvwrfqyp"
+}
+
 
   
     return stringList[math.random(#stringList)]
