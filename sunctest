@@ -232,4 +232,4 @@ local randomStr = randomStringFromList()
 
 
 print("sUNC, VERSION 1.45 "  .. randomStr)
-print("Contribu‌tors: vvultt, GRH,‌ 0_void")
+print("Contributors: vvultt, GRH, ‌0_void")
