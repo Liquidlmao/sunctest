@@ -4,6 +4,12 @@ local total_time = 0
 
 
 wait(-1)
+wait(-1)
+wait(-1)
+wait(-1)
+wait(-1)
+wait(-1)
+wait(-1)
 
 print("Loading...")
 print("Grabbing executor name...")
@@ -48,6 +54,10 @@ wait(1.5)
 total_time = total_time + 1.5  
 
 print("❗ Finished complicated loadstring URL testing")
+wait(-1)
+
+
+
 print("loadstring[complicated] true")
 print("loadstring[simple] true")
 print("loadstring[basic] true")
