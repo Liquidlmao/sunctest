@@ -199,29 +199,20 @@ print("\n")
 
 local function randomStringFromList()
    local stringList = {
-    "yjqcokuArqugfvqrngcugA",
-    "kupvvjcvuyg.gvA",
-    "nghvtkijvqjjJ",
-    "coqiwuNkmguDcpcpcuCpfQtcpigu",
-    "RtkkowwwwnVGKWDGUEUrtkownvcwuctwv",
-    "Wpfgxtgk",
-    "gurtAguqtA",
-    "wnvtcDcpcp2u6wtw|A",
-    "Jgnnq000FGZVGt0\"oqticp00",
-    "ctg{qwvjgqpgo{oqovqnfogpqvvqvcnmvqA",
-    "uq{qwecpu.nggr.dcd{kmpqy",
-    "EcvPgOckRtkxkoA",
-    "YJQCOAKUWRRAQUGFVQRNGCUGA",
-    "TgikpcDcnwnwk",
-    "eqpurktce{vjgqt{eedcppccpceef{peeqtcpigA",
-    "Rctc|kvkk",
-    "OqvjOcp223;73#1",
-    "cukxtgcucoqtkpckpvgucfgxkpkpwvkn",
-    "ixoywAvkycpvyjqcokA",
-    "kiwguuuqqqq",
-    "owjg4jgj100AA;jg473jgj",
-    "eccuvcgtcrfgeqnvwdnqewnwk-Afkpdwewtgujvk",
-    "oqxgkvwrfqyp"
+    "v�{�un�r9r�L",
+    "n{qLrrn;9L<>",
+    "z|�rv��}q|�{",
+    "Z|�uZn{==>FB>.<",
+    "qx}yxunywv�p�z{L",
+    "Uryy|;;;QReaR;-z|tn{;;",
+    "nv|�v{t�n_r}>�A9{�nr-pv{r-�n-�r-n�p�{qn",
+    "yrs�vtu�|uuU",
+    "vt�r���||||",
+    "Pn{qOntnzvn�Zn{nJv{}�yn9snpsvy|�|svrv{vzrlL>8J",
+    "nr�|��ur|{rz�z|z�|yqzr{|��|�nyx�|L",
+    "b{qr�rv",
+    
+    
 }
 
 
@@ -233,5 +224,5 @@ end
 local randomStr = randomStringFromList()
 
 
-print("sUNC, VERSION 1.45 "  .. randomStr)
+print("sUNC, VERSION 1.46 "  .. randomStr)
 print("Contribu‌tors: vvultt, GRH,‌ 0_void")
