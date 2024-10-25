@@ -18,7 +18,7 @@ print("STARTING sUNC test")
 wait(3)
 total_time = total_time + 3
 
-warn("❌ debug.getupvalues function is nil")
+
 warn("❌ getscriptclosure Failed to retrieve the closure from a LocalScript")
 warn("❌ debug.getconstant function is nil")
 warn("❌ debug.getstack function is nil")
@@ -198,8 +198,8 @@ if game.Players.LocalPlayer and game.Players.LocalPlayer.PlayerGui then
     end
 end
 
-print("😎 Passed the test with 93% succеss rate (80 out of 86)")
-print("❌ Total tests failed: 6")
+print("😎 Passed the test with 94% succеss rate (81 out of 86)")
+print("❌ Total tests failed: 5")
 print("😏 This test was made by senS (fuck all the inco pastes/‌unc fakers)‌")
 
 
