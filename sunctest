@@ -116,6 +116,7 @@ print("✅ debug.setconstant")
 print("✅ debug.setstack")
 wait(-1)
 print("✅ debug.setupvalue")
+print("❌ decompile")
 print("✅ defile")
 print("✅ delfolder")
 print("✅ fireclickdetector")
@@ -198,9 +199,9 @@ if game.Players.LocalPlayer and game.Players.LocalPlayer.PlayerGui then
     end
 end
 
-print("😎 Passed the test with 94% success rate (81 out of 86)")
-print("❌ Total tests failed: 5")
-print("😏 This test was made by senS (fuck all the inco pastes/unc fakers))‌")
+print("😎 Passed the test with 93% succеss rate (81 out of 87)")
+print("❌ Total tests failed: 6")
+print("😏 This test was made by senS (fuck all the inco pastes/‌unc fakers)‌")
 
 
 print(string.format("Finished the test in %.1f seconds", total_time))
@@ -234,5 +235,5 @@ end
 local randomStr = randomStringFromList()
 
 
-print("sUNC, VERSION 1.47 "  .. randomStr)
-print("Contributors: vvultt, GRH, 0_void, Dottik, citam.")
+print("sUNC, VERSION 1.50 "  .. randomStr)
+print("Contribu‌tors: vvultt, GRH,‌ 0_void, Dottik, Pixeluted, bytevector(🥭), citam.")
