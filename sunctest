@@ -200,7 +200,7 @@ if game.Players.LocalPlayer and game.Players.LocalPlayer.PlayerGui then
 end
 
 print("😎 Passed the test with 93% succеss rate (81 out of 87)")
-print("❌ Total tests failed: 6")
+print("❌ Total tests failed: ‌6")
 print("😏 This test was made by senS (fuck all the inco pastes/‌unc fakers)‌")
 
 
@@ -211,17 +211,17 @@ print("\n")
 local function randomStringFromList()
    local stringList = {
     "v�{�un�r9r�L",
-    "n{qLrrn;9L<>",
-    "z|�rv��}q|�{",
+    "-YJ\Yl`\LlLaJ_bJRJlJJ`\l`JVTJZR_",
     "Z|�uZn{==>FB>.<",
-    "qx}yxunywv�p�z{L",
-    "Uryy|;;;QReaR;-z|tn{;;",
-    "nv|�v{t�n_r}>�A9{�nr-pv{r-�n-�r-n�p�{qn",
-    "yrs�vtu�|uuU",
-    "vt�r���||||",
+    "vvz����yaRVbOR`P`}vz�y�n��n��",
+    "n{qLrrn;9L<>",
+    "�u|nzv�L}|�rq�|}yrn�rL",
+    "Uryy|9-nt�u�u-ZVaPURYY",
     "Pn{qOntnzvn�Zn{nJv{}�yn9snpsvy|�|svrv{vzrlL>8J",
-    "nr�|��ur|{rz�z|z�|yqzr{|��|�nyx�|L",
+    "dU\NZLV`b]]L\`RQa\]YRN`RL",
     "b{qr�rv",
+    "r�}Lr�|L",
+  
     
     
 }
