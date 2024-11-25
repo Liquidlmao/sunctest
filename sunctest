@@ -183,7 +183,7 @@ print("\n")
 
 
 local min_time = 1
-local max_time = 0
+local max_time = 3
 total_time = total_time + (min_time + math.random() * (max_time - min_time))
 
 
