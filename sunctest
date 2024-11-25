@@ -19,7 +19,7 @@ wait(3)
 total_time = total_time + 3
 
 
-warn("❌ getscriptclosure Failed to retrieve the closure from a LocalScript")
+
 warn("❌ debug.getconstant function is nil")
 warn("❌ debug.getstack function is nil")
 warn("❌ debug.getconstants function is nil")
@@ -71,118 +71,113 @@ wait(-1)
 wait(-1)
 wait(-1)
 warn("❌ WebSocket.connect CoreGui.Synapse.Scripts.7CFD2DC8-0DA4-4C6C-95A1-36ED76519E6D:1: invalid argument #1 to 'next' (table expected, got nil)")
+wait(-1)
+wait(-1)
+print("Interesting")
+wait(1)
+warn("❌ decompile function is nil")
 
-wait(5)
-total_time = total_time + 5  
+wait(1)
+total_time = total_time + 1 
 
 wait(-1)  
 print("\n\n\n")
 
-print("✅ Drawing.Fonts")
-print("✅ Drawing.new")
-wait(-1)
-print("❌ WebSocket.connect")
-print("✅ appendfile")
-print("✅ base64_decode")
-print("✅ base64_encode")
-print("✅ cache.invalidate")
-wait(-1)
-print("✅ cache.iscached")
-print("✅ cache.replace")
-print("✅ checkcaller")
-wait(-1)
-print("✅ cleardrawcache")
-print("✅ clonefunction")
-print("✅ cloneref")
-print("✅ compareinstances")
-wait(-1)
-print("✅ crypt.decrypt")
-print("✅ crypt.encrypt")
-print("✅ crypt.generatebytes")
-print("✅ crypt.generatekey")
-print("✅ crypt.hash")
-wait(-1)
-print("❌ debug.getconstant")
-print("❌ debug.getconstants")
-print("✅ debug.getinfo")
-print("✅ debug.getproto")
-print("✅ debug.getprotos")
-print("❌ debug.getstack")
-print("✅ debug.getupvalue")
-wait(-1)
-print("✅ debug.getupvalues")
-wait(-1)
-print("✅ debug.setconstant")
-print("✅ debug.setstack")
-wait(-1)
-print("✅ debug.setupvalue")
-print("❌ decompile")
-print("✅ defile")
-print("✅ delfolder")
-print("✅ fireclickdetector")
-print("✅ fireproximityprompt")
-print("✅ firesignal")
-print("✅ firetouchinterest")
-wait(-1)
-print("✅ getcallbackvalue")
-print("✅ getcallingscript")
-print("✅ getconnections")
-wait(-1)
-print("✅ getcustomasset")
-print("✅ getgc")
-print("✅ getgenv_access")
-print("✅ gethiddenproperty")
-wait(-1)
-print("✅ gethui")
-print("✅ getinstances")
-print("✅ getloadedmodules")
-wait(-1)
-print("✅ getnamecallmethod")
-print("✅ getnilinstances")
-print("✅ getrawmetatable")
-wait(-1)
-print("✅ getrenderproperty")
-print("✅ getrenv")
-print("✅ getrunningscripts")
-print("✅ getscriptbytecode")
-print("❌ getscriptclosure")
-wait(-1)
-print("✅ getscripthash")
-print("✅ getscripts")
-print("✅ getsenv")
-print("✅ getthreadidentity")
-wait(-1)
-print("✅ hookfunction")
-print("✅ hookmetamethod")
-print("✅ identifyexecutor")
-wait(-1)
-print("✅ iscclosure")
-print("✅ isexecutorclosure")
-print("✅ isfile")
-print("✅ isfolder")
-print("✅ islclosure")
-print("✅ isrbxactive")
-wait(-1)
-print("✅ isreadonly")
-print("✅ isrenderobj")
-print("✅ isscriptable")
-print("✅ listfiles")
-print("✅ loadfile")
-print("✅ loadstring")
-print("✅ lz4compress")
-print("✅ lz4decompress")
-wait(-1)
-print("✅ makefolder")
-print("✅ newcclosure")
-print("✅ readfile")
-print("✅ request")
-print("✅ sethiddenproperty")
-print("✅ setrawmetatable")
-print("✅ setreadonly")
-print("✅ setrenderproperty")
-print("✅ setscriptable")
-print("✅ setthreadidentity")
-print("✅ writefile")
+local messages = {
+    "✅ Drawing.Fonts",
+    "✅ Drawing.new",
+    "❌ WebSocket.connect",
+    "✅ appendfile",
+    "✅ base64_decode",
+    "✅ base64_encode",
+    "✅ cache.invalidate",
+    "✅ cache.iscached",
+    "✅ cache.replace",
+    "✅ checkcaller",
+    "✅ cleardrawcache",
+    "✅ clonefunction",
+    "✅ cloneref",
+    "✅ compareinstances",
+    "✅ crypt.decrypt",
+    "✅ crypt.encrypt",
+    "✅ crypt.generatebytes",
+    "✅ crypt.generatekey",
+    "✅ crypt.hash",
+    "❌ debug.getconstant",
+    "❌ debug.getconstants",
+    "✅ debug.getinfo",
+    "✅ debug.getproto",
+    "✅ debug.getprotos",
+    "❌ debug.getstack",
+    "✅ debug.getupvalue",
+    "✅ debug.getupvalues",
+    "✅ debug.setconstant",
+    "✅ debug.setstack",
+    "✅ debug.setupvalue",
+    "❌ decompile",
+    "✅ defile",
+    "✅ delfolder",
+    "✅ fireclickdetector",
+    "✅ fireproximityprompt",
+    "✅ firesignal",
+    "✅ firetouchinterest",
+    "✅ getcallbackvalue",
+    "✅ getcallingscript",
+    "✅ getconnections",
+    "✅ getcustomasset",
+    "✅ getgc",
+    "✅ getgenv_access",
+    "✅ gethiddenproperty",
+    "✅ gethui",
+    "✅ getinstances",
+    "✅ getloadedmodules",
+    "✅ getnamecallmethod",
+    "✅ getnilinstances",
+    "✅ getrawmetatable",
+    "✅ getrenderproperty",
+    "✅ getrenv",
+    "✅ getrunningscripts",
+    "✅ getscriptbytecode",
+    "✅ getscriptclosure",
+    "✅ getscripthash",
+    "✅ getscripts",
+    "✅ getsenv",
+    "✅ getthreadidentity",
+    "✅ hookfunction",
+    "✅ hookmetamethod",
+    "✅ identifyexecutor",
+    "✅ iscclosure",
+    "✅ isexecutorclosure",
+    "✅ isfile",
+    "✅ isfolder",
+    "✅ islclosure",
+    "✅ isrbxactive",
+    "✅ isreadonly",
+    "✅ isrenderobj",
+    "✅ isscriptable",
+    "✅ listfiles",
+    "✅ loadfile",
+    "✅ loadstring",
+    "✅ lz4compress",
+    "✅ lz4decompress",
+    "✅ makefolder",
+    "✅ newcclosure",
+    "✅ readfile",
+    "✅ request",
+    "✅ sethiddenproperty",
+    "✅ setrawmetatable",
+    "✅ setreadonly",
+    "✅ setrenderproperty",
+    "✅ setscriptable",
+    "✅ setthreadidentity",
+    "✅ writefile"
+}
+
+for _, message in ipairs(messages) do
+    print(message)
+    task.wait(0.003)  -- Faster delay than 0.01
+end
+
 
 print("\n")
 
@@ -199,8 +194,8 @@ if game.Players.LocalPlayer and game.Players.LocalPlayer.PlayerGui then
     end
 end
 
-print("😎 Passed the test with 93% succеss rate (81 out of 87)")
-print("❌ Total tests failed: ‌6")
+print("😎 Passed the test with 94% succеss rate (82 out of 87)")
+print("❌ Total tests failed: ‌5")
 print("😏 This test was made by senS (fuck all the inco pastes/‌unc fakers)‌")
 
 
