@@ -10,6 +10,13 @@ wait(-1)
 wait(-1)
 wait(-1)
 wait(-1)
+wait(-1)
+wait(-1)
+wait(-1)
+wait(-1)
+wait(-1)
+wait(-1)
+wait(-1)
 
 print("Loading...")
 print("Grabbing executor name...")
@@ -17,6 +24,11 @@ print("STARTING SUNC test. Join our Discord server if you want :) [discord.gg/rx
 
 wait(3)
 total_time = total_time + 3
+
+print("true nil")
+
+wait(5)
+total_time = total_time + 5
 
 
 
