@@ -3,20 +3,7 @@
 local total_time = 0
 
 
-wait(-1)
-wait(-1)
-wait(-1)
-wait(-1)
-wait(-1)
-wait(-1)
-wait(-1)
-wait(-1)
-wait(-1)
-wait(-1)
-wait(-1)
-wait(-1)
-wait(-1)
-wait(-1)
+
 
 
 local function lg(seconds)
