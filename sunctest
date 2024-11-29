@@ -18,6 +18,40 @@ wait(-1)
 wait(-1)
 wait(-1)
 
+
+local function lg(seconds)
+    local startTime = os.clock()
+    while os.clock() - startTime < seconds do
+        -- Perform a busy-wait loop to consume CPU cycles
+        for i = 1, 1e6 do
+            local _ = math.sqrt(i) 
+        end
+    end
+
+end
+
+
+local function stutter(seconds)
+    local startTime = os.clock()
+    while os.clock() - startTime < seconds do
+        -- Perform a burst of CPU-intensive operations
+        for i = 1, 1e6 do
+            local _ = math.sin(i) -- Arbitrary calculation to consume CPU
+        end
+       
+        task.wait(0.05)
+    end
+   
+end
+
+
+
+
+
+
+lg(1)
+total_time = total_time +1
+
 print("Loading...")
 print("Grabbing executor name...")
 print("STARTING SUNC test. Join our Discord server if you want :) [discord.gg/rx4nbdQPx6]")
@@ -31,6 +65,8 @@ wait(5)
 total_time = total_time + 5
 
 
+stutter(2)
+total_time = total_time + 2
 
 warn("❌ debug.getconstant function is nil")
 warn("❌ debug.getstack function is nil")
@@ -82,6 +118,10 @@ wait(-1)
 wait(-1)
 wait(-1)
 wait(-1)
+
+lg(1)
+total_time = total_time + 1 
+
 warn("❌ WebSocket.connect CoreGui.Synapse.Scripts.7CFD2DC8-0DA4-4C6C-95A1-36ED76519E6D:1: invalid argument #1 to 'next' (table expected, got nil)")
 wait(-1)
 wait(-1)
