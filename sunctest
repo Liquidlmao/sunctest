@@ -154,7 +154,7 @@ local messages = {
     "✅ debug.setstack",
     "✅ debug.setupvalue",
     "❌ decompile",
-    "✅ defile",
+    "✅ delfile",
     "✅ delfolder",
     "✅ fireclickdetector",
     "✅ fireproximityprompt",
