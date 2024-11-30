@@ -109,7 +109,7 @@ wait(-1)
 lg(1)
 total_time = total_time + 1 
 
-warn("❌ WebSocket.connect CoreGui.Synapse.Scripts.7CFD2DC8-0DA4-4C6C-95A1-36ED76519E6D:1: invalid argument #1 to 'next' (table expected, got nil)")
+warn("❌ WebSocket.connect CoreGui.Hi.Scripts.:1: invalid argument #1 to 'next' (table expected, got nil)")
 wait(-1)
 wait(-1)
 print("Interesting")
