@@ -41,20 +41,10 @@ total_time = total_time +1
 
 print("Loading...")
 print("Grabbing executor name...")
-print("STARTING SUNC test. Join our Discord server if you want :) [discord.gg/rx4nbdQPx6]")
+print("STARTING sUNC test. Join our Discord server if you want :) [discord.gg/rx4nbdQPx6]")
 
-wait(3)
-total_time = total_time + 3
-
-print("true nil")
-
-wait(5)
-total_time = total_time + 5
-
-
-stutter(2)
+wait(2)
 total_time = total_time + 2
-
 
 warn("❌ debug.getstack function is nil")
 
@@ -63,6 +53,20 @@ warn("❌ debug.getstack function is nil")
 wait(2)
 total_time = total_time + 2
 
+print("true nil")
+
+
+
+
+
+
+
+
+
+wait(3)
+total_time = total_time + 3
+
+lg(1)
 
 print("❗ Starting basic loadstring testing...")
 print("❗ Finished basic loadstring testing")
@@ -114,10 +118,75 @@ wait(-1)
 wait(-1)
 print("Interesting")
 wait(1)
-warn("❌ decompile function is nil")
 
-wait(1)
-total_time = total_time + 1 
+-- Create a new ScreenGui
+local screenGui = Instance.new("ScreenGui")
+screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+-- Create a new Frame to represent the circle
+local circle = Instance.new("Frame")
+circle.Size = UDim2.new(0, 175, 0, 175) -- Keep the original size
+circle.AnchorPoint = Vector2.new(0.5, 0.5)
+circle.BackgroundTransparency = 1 -- Fully transparent fill
+circle.BorderSizePixel = 0 -- No border
+circle.Parent = screenGui
+
+-- Add an outline using UIStroke
+local uiStroke = Instance.new("UIStroke")
+uiStroke.Thickness = 1.5 -- Slightly thicker than 1
+uiStroke.Color = Color3.fromRGB(240, 230, 140) -- Replace with your desired outline color
+uiStroke.Parent = circle
+
+-- Make the Frame a perfect circle
+local uiCorner = Instance.new("UICorner")
+uiCorner.CornerRadius = UDim.new(1, 0) -- Full circle
+uiCorner.Parent = circle
+
+-- Function to update the initial position of the circle based on the head's position
+local function setInitialCirclePosition()
+    local character = game.Players.LocalPlayer.Character
+    if character and character:FindFirstChild("Head") then
+        -- Get the position of the head
+        local head = character.Head
+        local screenPosition, onScreen = workspace.CurrentCamera:WorldToScreenPoint(head.Position)
+        if onScreen then
+            -- Set the circle position to the center of the head on the screen
+            circle.Position = UDim2.new(0, screenPosition.X, 0, screenPosition.Y)
+        end
+    end
+end
+
+-- Set the initial position
+setInitialCirclePosition()
+
+-- Define the behavior: Change outline color quickly and disappear
+local function animateCircle()
+    -- Wait briefly
+    wait(0.1)
+    -- Change outline color to red
+    uiStroke.Color = Color3.fromRGB(100, 0, 0)
+    -- Wait again
+    wait(0.1)
+    -- Make it disappear
+    circle:Destroy()
+end
+
+-- Start the animation
+animateCircle()
+
+
+
+
+local lol = {
+    "❌ decompile function is nil",
+}
+
+for _, message in ipairs(lol) do
+    warn(message) -- Use message instead of lol
+    task.wait(0.010) -- Faster delay than 0.01
+end
+
+
 
 wait(-1)  
 print("\n\n\n")
@@ -214,8 +283,10 @@ local messages = {
 
 for _, message in ipairs(messages) do
     print(message)
-    task.wait(0.003)  -- Faster delay than 0.01
+    task.wait(0.002)  -- Faster delay than 0.01
 end
+
+
 
 
 print("\n")
