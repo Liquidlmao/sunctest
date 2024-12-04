@@ -119,7 +119,6 @@ wait(-1)
 print("Interesting")
 wait(1)
 
--- Create a new ScreenGui
 local screenGui = Instance.new("ScreenGui")
 screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
@@ -133,7 +132,7 @@ circle.Parent = screenGui
 
 -- Add an outline using UIStroke
 local uiStroke = Instance.new("UIStroke")
-uiStroke.Thickness = 1.5 -- Slightly thicker than 1
+uiStroke.Thickness = 1.9 -- Slightly thicker than 1
 uiStroke.Color = Color3.fromRGB(240, 230, 140) -- Replace with your desired outline color
 uiStroke.Parent = circle
 
@@ -150,8 +149,8 @@ local function setInitialCirclePosition()
         local head = character.Head
         local screenPosition, onScreen = workspace.CurrentCamera:WorldToScreenPoint(head.Position)
         if onScreen then
-            -- Set the circle position to the center of the head on the screen
-            circle.Position = UDim2.new(0, screenPosition.X, 0, screenPosition.Y)
+            -- Set the circle position slightly above the center of the head on the screen
+            circle.Position = UDim2.new(0, screenPosition.X, 0, screenPosition.Y -5) -- Move 50 pixels higher
         end
     end
 end
@@ -173,8 +172,6 @@ end
 
 -- Start the animation
 animateCircle()
-
-
 
 
 local lol = {
