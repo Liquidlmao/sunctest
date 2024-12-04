@@ -100,15 +100,9 @@ wait(-1)
 print("loadstring[complicated] true")
 print("loadstring[simple] true")
 print("loadstring[basic] true")
+
 wait(-1)
-wait(-1)
-wait(-1)
-wait(-1)
-wait(-1)
-wait(-1)
-wait(-1)
-wait(-1)
-wait(-1)
+
 
 lg(1)
 total_time = total_time + 1 
