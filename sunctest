@@ -173,6 +173,19 @@ end
 -- Start the animation
 animateCircle()
 
+wait(-1)
+wait(-1)
+wait(-1)
+wait(-1)
+wait(-1)
+wait(-1)
+wait(-1)
+wait(-1)
+wait(-1)
+wait(-1)
+wait(-1)
+wait(-1)
+
 
 local lol = {
     "❌ decompile function is nil",
@@ -185,7 +198,7 @@ end
 
 
 
-wait(-1)  
+
 
 print("\n\n\n")
 
