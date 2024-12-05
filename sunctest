@@ -252,7 +252,6 @@ local messages = {
     "✅ getrunningscripts",
     "✅ getscriptbytecode",
     "✅ getscriptclosure",
-    "✅ getscripthash",
     "✅ getscripts",
     "✅ getsenv",
     "✅ getthreadidentity",
@@ -277,6 +276,7 @@ local messages = {
     "✅ newcclosure",
     "✅ readfile",
     "✅ request",
+    "✅ restorefunction",
     "✅ sethiddenproperty",
     "✅ setrawmetatable",
     "✅ setreadonly",
@@ -345,5 +345,5 @@ end
 local randomStr = randomStringFromList()
 
 
-print("sUNC, VERSION 1.50 "  .. randomStr)
+print("sUNC, VERSION 1.51 "  .. randomStr)
 print("Contribu‌tors: vvultt, GRH,‌ 0_void, Dottik, Pixeluted, bytevector(🥭), citam.")
