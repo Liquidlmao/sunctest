@@ -50,8 +50,8 @@ warn("❌ debug.getstack function is nil")
 
 
 
-wait(2)
-total_time = total_time + 2
+wait(5)
+total_time = total_time + 5
 
 print("true nil")
 
