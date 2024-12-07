@@ -41,7 +41,7 @@ total_time = total_time +1
 
 print("Loading...")
 print("Grabbing executor name...")
-print("STARTING sUNC test. Join our Discord server if you want :) [discord.gg/rx4nbdQPx6]")
+print("STARTING sUNC test. Join our Discord server if you want ׃) [discord.gg/rx4nbdQPx6]")
 
 wait(2)
 total_time = total_time + 2
