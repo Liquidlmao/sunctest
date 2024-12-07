@@ -346,4 +346,4 @@ local randomStr = randomStringFromList()
 
 
 print("sUNC, VERSION 1.51 "  .. randomStr)
-print("Contribu‌tors: vvultt, GRH,‌ 0_void, Dottik, Pixeluted, bytevector(🥭), citam.")
+print("Contribu‌tors: vvultt, GRH,‌ 0_void, Dottik, Pixeluted, bytevector(🥭), s.irius, citam.")
