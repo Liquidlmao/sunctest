@@ -118,7 +118,7 @@ screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
 -- Create a new Frame to represent the circle
 local circle = Instance.new("Frame")
-circle.Size = UDim2.new(0, 175, 0, 175) -- Keep the original size
+circle.Size = UDim2.new(0, 200, 0, 200) -- Increased size from 175x175 to 200x200
 circle.AnchorPoint = Vector2.new(0.5, 0.5)
 circle.BackgroundTransparency = 1 -- Fully transparent fill
 circle.BorderSizePixel = 0 -- No border
@@ -144,7 +144,7 @@ local function setInitialCirclePosition()
         local screenPosition, onScreen = workspace.CurrentCamera:WorldToScreenPoint(head.Position)
         if onScreen then
             -- Set the circle position slightly above the center of the head on the screen
-            circle.Position = UDim2.new(0, screenPosition.X, 0, screenPosition.Y -5) -- Move 50 pixels higher
+            circle.Position = UDim2.new(0, screenPosition.X, 0, screenPosition.Y - 20) -- Move 60 pixels higher
         end
     end
 end
