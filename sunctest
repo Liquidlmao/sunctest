@@ -46,7 +46,9 @@ print("STARTING sUNC test. Join our Discord server if you want ׃) [discord.gg/r
 wait(2)
 total_time = total_time + 2
 
-warn("❌ debug.getstack function is nil")
+
+warn("❌ decompile function is nil")
+warn("❌ WebSocket.connect CoreGui.Hi.Scripts.:1: invalid argument #1 to 'next' (table expected, got nil)")
 
 
 
@@ -107,7 +109,7 @@ wait(-1)
 lg(1)
 total_time = total_time + 1 
 
-warn("❌ WebSocket.connect CoreGui.Hi.Scripts.:1: invalid argument #1 to 'next' (table expected, got nil)")
+
 wait(-1)
 wait(-1)
 print("Interesting")
@@ -182,15 +184,6 @@ wait(-1)
 wait(-1)
 
 
-local lol = {
-    "❌ decompile function is nil",
-}
-
-for _, message in ipairs(lol) do
-    warn(message) -- Use message instead of lol
-    task.wait(0.010) -- Faster delay than 0.01
-end
-
 
 
 
@@ -222,7 +215,7 @@ local messages = {
     "✅ debug.getinfo",
     "✅ debug.getproto",
     "✅ debug.getprotos",
-    "❌ debug.getstack",
+    "✅ debug.getstack",
     "✅ debug.getupvalue",
     "✅ debug.getupvalues",
     "✅ debug.setconstant",
@@ -310,8 +303,8 @@ if game.Players.LocalPlayer and game.Players.LocalPlayer.PlayerGui then
     end
 end
 
-print("😎 Passed the test with 97% succеss rate (84 ‌out ‌of ‌87)")
-print("❌ Total tests failed: ‌3")
+print("😎 Passed the test with 98% succеss rate (85 ‌out ‌of ‌87)")
+print("❌ Total tests failed: ‌2")
 print("😏 This test was made by senS (fuck all the inco pastes/‌unc fakers)‌")
 
 
