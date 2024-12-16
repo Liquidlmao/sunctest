@@ -282,7 +282,7 @@ local messages = {
 
 for _, message in ipairs(messages) do
     print(message)
-    task.wait(0.001)  -- Faster delay than 0.01
+    task.wait(0.003)  -- Faster delay than 0.01
 end
 
 
