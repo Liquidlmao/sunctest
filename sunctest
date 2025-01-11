@@ -48,7 +48,7 @@ total_time = total_time + 4
 
 
 warn("❌ decompile function is nil")
-warn("❌ WebSocket.connect CoreGui.Hi.Scripts.:1: invalid argument #1 to 'next' (table expected, got nil)")
+
 
 
 
@@ -303,8 +303,8 @@ if game.Players.LocalPlayer and game.Players.LocalPlayer.PlayerGui then
     end
 end
 
-print("😎 Passed the test with 98% succеss rate (85 ‌out ‌of ‌87)")
-print("❌ Total tests failed: ‌2")
+print("😎 Passed the test with 99% succеss rate (86 ‌out ‌of ‌87)")
+print("❌ Total tests failed: ‌1")
 print("😏 This test was made by senS (fuck all the inco pastes/‌unc fakers)‌")
 
 
