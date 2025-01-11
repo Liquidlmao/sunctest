@@ -193,7 +193,7 @@ print("\n\n\n")
 local messages = {
     "✅ Drawing.Fonts",
     "✅ Drawing.new",
-    "❌ WebSocket.connect",
+    "✅ WebSocket.connect",
     "✅ appendfile",
     "✅ base64_decode",
     "✅ base64_encode",
