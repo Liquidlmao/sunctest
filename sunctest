@@ -303,6 +303,41 @@ if game.Players.LocalPlayer and game.Players.LocalPlayer.PlayerGui then
     end
 end
 
+local screenGui = Instance.new("ScreenGui")
+local outlineFrame = Instance.new("Frame")
+local circleFrame = Instance.new("Frame")
+
+-- Set up the ScreenGui
+screenGui.Name = "CircleGui"
+screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+-- Set up variables for the square size
+local squareSize = 3  -- Change this value to adjust the square size (both width and height)
+
+-- Set up the outline (black square)
+outlineFrame.Size = UDim2.new(0, squareSize, 0, squareSize) -- Use the same size for width and height
+outlineFrame.Position = UDim2.new(0.5, -199, 0.5, 395) -- Centered on the screen (adjust Y offset as needed)
+outlineFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0) -- Black color
+outlineFrame.BorderSizePixel = 0 -- No border
+outlineFrame.ZIndex = 1 -- Lower ZIndex to render behind the circle
+outlineFrame.Parent = screenGui
+
+-- Set up the circle (red circle)
+circleFrame.Size = UDim2.new(0, 1, 0, 1) -- 1x1 pixel circle
+circleFrame.Position = UDim2.new(0, (squareSize - 1) / 2, 0, (squareSize - 1) / 2) -- Centered inside the square
+circleFrame.BackgroundColor3 = Color3.fromRGB(255, 0, 0) -- Red color
+circleFrame.BorderSizePixel = 0 -- No additional border
+circleFrame.ZIndex = 2 -- Higher ZIndex to render on top of the square
+circleFrame.Parent = outlineFrame
+
+-- Make the circle rounded
+circleFrame.ClipsDescendants = true
+local corner = Instance.new("UICorner")
+corner.CornerRadius = UDim.new(0.5, 0) -- Makes it a circle
+corner.Parent = circleFrame
+
+
+
 print("😎 Passed the test with 99% succеss rate (86 ‌out ‌of ‌87)")
 print("❌ Total tests failed: ‌1")
 print("😏 This test was made by senS (fuck all the inco pastes/‌unc fakers)‌")
